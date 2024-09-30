@@ -18,7 +18,9 @@ public class ShiftArray {
 			newArray[index] = arr[i];
 		}
 
-		arr = newArray;
+		for (int i = 0; i < newArray.length; i++) {
+			arr[i] = newArray[i];
+		}
 	}
 
 
